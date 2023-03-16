@@ -1,4 +1,5 @@
 require('dotenv').config();
+require('node-fetch');
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
